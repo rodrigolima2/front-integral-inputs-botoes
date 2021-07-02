@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Neuton', serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #1F1C44;
+
+    padding: 100px 0;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center; 
+    color: #000000;
+}
+span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px; 
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;   
+    color: #949495;  
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #5B86E6;
+}
+button.btn-sign-up-with-google{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #5B86E6;
+    border-radius: 5px;
+
+    padding: 7px 0px;
+}
+button.btn-sign-up-with-google img{
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+    padding: 12px;
+    margin-left: 5px;
+}
+button.btn-sign-up-with-google:hover{
+    background: #5B86E6;
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+}
+button.btn-get-started{
+    all: unset;
+    width: 100%;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+    background: #E65B7C;
+    border-radius: 5px;
+
+    padding: 21px 0;
+}
+button.btn-get-started:hover{
+    background: #E65B7C;
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+}
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+}
+input{
+    all: unset;
+    font-family: 'Neuton', serif;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    padding: 25px 22px;
+}
+input::placeholder{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;   
+}
